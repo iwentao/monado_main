@@ -42,6 +42,7 @@ enum class pose_ext_type : int;
 
 /*!
  * @brief Standard pose type to communicate Monado with the external SLAM system
+ * 与外部SLAM系统交互的标准姿态数据结构pose
  */
 struct pose {
   std::int64_t timestamp;   //!< In same clock as input samples
